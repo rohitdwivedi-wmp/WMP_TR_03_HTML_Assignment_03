@@ -11,16 +11,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <body>
     
-    <!-- Header Start -->
+    <!--  ============ Header Start ============  -->
     <header>
-        <nav class="outer-container flex space-btw text-center rb">
-            <div class="nav-left flex space-btw gb">
-                <div id="logo" class="rb"><img src="./assets/images/Logo-colored.png" alt=""></div>
+        <nav class="outer-container flex space-btw text-center">
+            <div class="nav-left flex space-btw">
+                <div id="logo"><img src="./assets/images/Nav-images/Logo-colored.png" alt=""></div>
                 <div class="nav-button-container flex space-btw text-center w-500 ">
                     <li class="nav-item"><a href="">Products</a></li>
                     <li class="nav-item"><a href="">Solutions</a></li>
                     <li class="nav-item"><a href="">Pricing</a></li>
-                    <li class="nav-item flex rb"><a href="" class="flex text-center">Resources</a><img id="drop-down" src="./assets/images/drop-down.png" alt="">
+                    <li class="nav-item flex"><a href="" class="flex text-center">Resources</a><img id="drop-down" src="/assets/images/Nav-images/drop-down.png" alt="">
                     </li>
                 </div>
             </div>
@@ -41,43 +41,245 @@
             </div>
         </div>
     </header>
-    <!-- Header End -->
+    <!--  ============ Header End ============  -->
 
 
 
     <main>
-
-        <section class="outer-container">
-            <div class="student-container gb">
-                <div class="student-left rb">
-                    <h1 class="w-800 rb">Teach students worldwide</h1>
+        <!--  ============ Teacher Student Section Start ============  -->
+        <section class="teach-container outer-container">
+            <div class="student-container flex flex-wrap">
+                <div class="student-left">
+                    <h1 class="w-800"><span id="teach" class="title-underline">Teach<img class="title-img" src="./assets/images/student-images/titleunderline.png" alt="underline-img"></span> students worldwide</h1>
                     <p class="w-400">Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar. Nunc ipsum est pellentesque turpis ultricies.</p>
-                    <div class="student-buttons flex flex-wrap rb">
-                        <div id="signup-btn" class="student-btn w-700 gb">Sign Up Now</div>
-                        <div id="demo-btn" class="student-btn flex flex-wrap skyblue">
-                            <div><img class="" src="./assets/images/play-circle.png" alt="play-circle"></div><p>View Demo</p>
+                    <div class="student-buttons flex">
+                        <div id="signup-btn" class="student-btn w-700">Sign Up Now</div>
+                        <div id="demo-btn" class="student-btn flex center text-center flex-wrap skyblue">
+                            <img class="" src="./assets/images/student-images/play-circle.png" alt="play-circle" width="25px" height="25px">
+                            <p>View Demo</p>
                         </div>
                     </div>
                     <div class="trusted flex space-btw flex-wrap">
                         <div class="trust-box" class="gray">
-                            <p class="trust-text w-400">Trusted by</p>
-                            <p class="trust-text w-400">leading companies</p>
+                            <p class="w-400">Trusted by&nbsp;</p>
+                            <p class="w-400">leading companies</p>
                         </div>
-                        <div class="trust-icon"><img src="./assets/images/icon1.png" alt="icon.."></div>
-                        <div class="trust-icon"><img src="./assets/images/icon2.png" alt="icon.."></div>
-                        <div class="trust-icon"><img src="./assets/images/icon3.png" alt="icon.."></div>
-                        <div class="trust-icon"><img src="./assets/images/icon4.png" alt="icon.."></div>
-                        <div class="trust-icon"><img src="./assets/images/icon5.png" alt="icon.."></div>
+                        <div class="companies flex space-around">        
+                            <img src="./assets/images/student-images/icon1.png" alt="icon..">
+                            <img src="./assets/images/student-images/icon2.png" alt="icon..">
+                            <img src="./assets/images/student-images/icon3.png" alt="icon..">
+                            <img src="./assets/images/student-images/icon4.png" alt="icon..">
+                            <img src="./assets/images/student-images/icon5.png" alt="icon..">
+                        </div>
                     </div>
                 </div>
-                <div class="student-right gb">
+                <div class="student-right ">
+                    <div class="inline chat abs ">
+                        <img class=""  src="./assets/images/student-images/Chat.png" alt="">
+                    </div>
+                    <div class="inline abs student ">
+                        <img class="abs one" src="./assets/images/student-images/student.png" alt="">
+                        <img class="abs two" src="./assets/images/student-images/sparkleyellow.png" alt="">
+                        <img class="abs three" src="./assets/images/student-images/orangebackgroud.png" alt="">
+                    </div>
+                    <div class="inline abs teacher ">
+                        <img class="abs one" src="./assets/images/student-images/teacher.png" alt="">
+                        <img class="abs two fix-y-star" src="./assets/images/student-images/sparkleOrange.png" alt="">
+                        <img class="abs three" src="./assets/images/student-images/yellowbackgroud.png" alt="Loading..">
+                    </div>
+                    <div class="inline abs icons ">
+                        <img class="" src="./assets/images/student-images/imageicon.png" alt="">
+                    </div>
 
                 </div>
             </div>
         </section>
+        <!--  ============ Teacher Student Section End ============  -->
 
+
+        <!--  ============ Tool Section Start ============  -->
+        <section class="tool-container">
+            <h2 class="w-800 text-align">All the <span id="tool" class="title-underline">tools<img class="title-img" src="./assets/images/student-images/titleunderline.png" alt="underline-img"></span> that you need</h2>
+            <p class="w-400 text-align">Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris.
+                Pharetra, eu imperdiet ipsum ultrices amet, dui sit suspendisse.
+            </p>
+            <div class="tool-images">
+                <img class="tool-one abs" src="./assets/images/tool-images/tool-left.png" alt="">
+                <img class="tool-two abs" src="./assets/images/tool-images/Desktop.png" alt="">
+                <img class="tool-three abs" src="./assets/images/tool-images/tool-right.png" alt="">
+            </div>
+            <div class="tool-icons flex space-btw">
+                <div class="t-icon flex center text-center"><img src="./assets/images/tool-images/icon-1.png" alt="icon loading.."></div>
+                <div class="t-icon flex center text-center"><img src="./assets/images/tool-images/icon-2.png" alt="icon loading.."></div>
+                <div class="t-icon flex center text-center"><img src="./assets/images/tool-images/icon-3.png" alt="icon loading.."></div>
+                <div class="t-icon flex center text-center"><img src="./assets/images/tool-images/icon-4.png" alt="icon loading.."></div>
+                <div class="t-icon flex center text-center"><img src="./assets/images/tool-images/icon-5.png" alt="icon loading.."></div>
+                <div class="t-icon flex center text-center"><img src="./assets/images/tool-images/icon-6.png" alt="icon loading.."></div>
+                <div class="t-icon flex center text-center"><img src="./assets/images/tool-images/icon-8.png" alt="icon loading.."></div>
+                <div class="t-icon flex center text-center"><img src="./assets/images/tool-images/icon-9.png" alt="icon loading.."></div>
+            </div>
+        </section>
+        <!--  ============ Tool Section End ============  -->
+
+
+        <!--  ============ Everyone Section Start ============  -->
+        <section class="everyone">
+            <div class="everyone-text outer-container flex space-btw text-align">
+                <h2 class="w-800">What everyone says</h2>
+                <span id="left-right-icon" class="flex flex-wrap text-align">
+                    <img id="left-move" src="./assets/images/carousel-images/Button-left.svg" alt="..">
+                    <img id="right-move" src="./assets/images/carousel-images/Button -right.svg" alt="..">
+                </span>
+            </div>
+            <div class="wrapper">
+                <div class="carousel flex">
+                    <div class="card">
+                        <p>Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae praesent morbi purus consec.</p>
+                        <div class="user flex">
+                            <img src="./assets/images/carousel-images/User-1.png" alt="user__image">
+                            <div class="user-text">
+                                <p class="">Hellen Jummy</p>
+                                <p class="gray designation ">Financial Counselor</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <p>Odio rhoncus ornare ut quam. Molestie vel duis quis scelerisque ut id. In tortor turpis viverra sagittis ultrices nisi, nec tortor. Vestibulum, ultrices ultricies neque, hac ultricies dolor.</p>
+                        <div class="user flex">
+                            <img src="./assets/images/carousel-images/User-2.png" alt="user__image">
+                            <div class="user-text ">
+                                <p class="">Ralph Edwards</p>
+                                <p class="gray designation ">Math Teacher</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <p>Sagittis nunc egestas leo et malesuada urna risus. Morbi proin et cras aliquam. Diam tellus, amet, hac imperdiet. Tellus mi volutpat tellus, malesuada sit nisl donec a nec tortor.</p>
+                        <div class="user flex">
+                            <img src="./assets/images/carousel-images/User-3.png" alt="user__image">
+                            <div class="user-text ">
+                                <p class="">Hellena John</p>
+                                <p class="gray designation ">Psychology Student</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <p>Sapien, sollicitudin et vitae id et laoreet sapien consectetur. Felis egestas egestas amet aliquam sit euismod. Pellentesque neque, sed ut volutpat. Ullamcorper in at nulla dignissim.</p>
+                        <div class="user flex">
+                            <img src="./assets/images/carousel-images/User-1.png" alt="user__image">
+                            <div class="user-text ">
+                                <p class="">David Oshodi</p>
+                                <p class="gray designation ">Manager</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <p>Lacus vestibulum ultricies mi risus, duis non, volutpat nullam non. Magna congue nisi maecenas elit aliquet eu sed consectetur. Vitae quis cras vitae  morbi adipiscing consectetur mi.</p>
+                        <div class="user flex">
+                            <img src="./assets/images/carousel-images/User-2.png" alt="user__image">
+                            <div class="user-text ">
+                                <p class="">Charolette Hanlin</p>
+                                <p class="gray designation ">CEO</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--  ============ Everyone Section End ============  -->
+
+
+        <!--  ============ Join Section Start ============  -->
+        <section class="join-container flex center text-center">
+            <div class="join-text text-align">
+                <h2 class="w-800">Join a world of learning</h2>
+                <p class="w-400">Malesuada ut aliquam at ac est nisi, interdum etiam dignissim.</p>
+                <p class="w-400">Risus elit et fringilla habitant ut facilisi.</p>
+                <button id="join-signup" class="w-700">Sign Up Now</button>
+            </div>
+            <img class="join-left abs" src="./assets/images/join-images/join-left.png" alt="loading..">
+            <img class="join-right abs" src="./assets/images/join-images/join-right.png" alt="loading..">
+        </section>
+        <!--  ============ Join Section End ============  -->
+
+
+        
+        
     </main>
+    
+    <!--  ============ Footer End ============  -->
+      <footer>
+        <div id="upper-footer" class="outer-container flex space-btw flex-wrap">
+            <div class="footer-item">
+                <img src="./assets/images/footer-images/footer-logo.png" alt="">
+            </div>
+            <div class="footer-item flex space-around">
+                <div class="w-500"><a href="">Product</a></div>
+                <div><a href="">Pricing</a></div>
+                <div><a href="">Overview</a></div>
+                <div><a href="">Browse</a></div>
+                <div id="beta-container" class="flex flex-wrap">
+                    <span><a href="">Accessibility</a></span>
+                    <div id="beta">BETA</div>
+                </div>
+            </div>
+            <div class="footer-item flex space-around">
+                <div class="w-500"><a href="">Solutions</a></div>
+                <div><a href="">Brainstorming</a></div>
+                <div><a href="">Ideation</a></div>
+                <div><a href="">Wireframing</a></div>
+                <div><a href="">Research</a></div>
+            </div>
+            <div class="footer-item flex space-around">
+                <div class="w-500"><a href="">Resources</a></div>
+                <div><a href="">Help Center</a></div>
+                <div><a href="">Blog</a></div>
+                <div><a href="">Tutorials</a></div>
+                <div><a href="">FAQs</a></div>
+            </div>
+            <div class="footer-item flex space-around">
+                <div class="w-500"><a href="">Support</a></div>
+                <div><a href="">Contact Us</a></div>
+                <div><a href="">Developers</a></div>
+                <div><a href="">Documentation</a></div>
+                <div><a href="">Integrations</a></div>
+            </div>
+            <div class="footer-item flex space-around">
+                <div class="w-500"><a href="">Company</a></div>
+                <div><a href="">About</a></div>
+                <div><a href="">Press</a></div>
+                <div><a href="">Events</a></div>
+                <div><a href="">Request Demo </a><img src="./assets/images/footer-images/Vector.png" alt="icon.."></div>
+            </div>
+        </div>
+        <div class="outer-container">
+            <hr id="footer-divider">
+        </div>
+        <div id="down-footer" class="outer-container flex space-btw">
+            <p>uteach @ 2023. All rights reserved.</p>
+            <div id="down-inside-container" class="flex flex-wrap space-btw text-align">
+                <div class="down-f-text"><a href="">Terms</a></div>
+                <div class="down-f-text"><a href="">Privacy</a></div>
+                <div class="down-f-text"><a href="">Contact</a></div>
+                <span class="flex text-align">
+                    <div class="flex text-align"><img src="./assets/images/footer-images/earth.png" alt="" height="80%"></div>
+                    <p class="down-fixing">&nbsp;EN</p>
+                </span>
+                <span class="flex text-align">
+                    <div><img src="./assets/images/footer-images/euro.png" alt=""></div>
+                    <p class="down-fixing">EUR</p>
+                </span>
+                <div class="down-f-text inline"><img src="./assets/images/footer-images/accessibility.png" alt=""></div>
+            </div>
+        </div>
+      </footer>
 
+    <!--  ============ Footer End ============  -->
 
 
     <script src="./assets/js/app.js"></script>

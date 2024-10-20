@@ -13,11 +13,19 @@
     --xlg-font-size: 7rem;
 
 
+    --transparency: 0.24;
+
     --black-color: #0F172A;
     --white-color: #FFFFFF;
     --skyblue-color: #2563EB;
     --orange-color: #EA580C;
     --gray-color: #475569;
     --gray-icon-color: #64748B;
+    --tool-bg-color: #F1F5F9;
+    --tool-icon-border-color: #CBD5E1;
+    --tool-icon-hover-border: #FB923C;
+    --yellow-color: #FACC15;
+    --footer-bg-color: #0F172A;
+    --voilet-color: #6B21A8;
 
 }
