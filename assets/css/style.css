@@ -142,7 +142,7 @@ li{
     min-width: 280px;
     border: .15rem solid var(--black-color);
     flex-direction: column;
-    border-radius: 18px;
+    border-radius: .4rem;
     background-color: var(--white-color);
     z-index: 3;
 }
@@ -150,7 +150,7 @@ li{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding:0rem 5%;
+    padding: 0rem 5%;
 }
 .menu-active{
     position: absolute;
@@ -162,18 +162,37 @@ li{
 .mobile-nav-item a{
     text-decoration: none;
     color: var(--btn-color);
+
 }
 .mobile-nav-item{
     padding: .7rem 0rem;
+
+    /* ----- */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: .2rem 0rem;
+}
+.mobile-nav-item:hover{
+    border-left: .2rem solid rgba(0, 0, 0, var(--transparency));
+    border-right: .2rem solid rgba(0, 0, 0, var(--transparency));
+    background-color: rgba(0, 0, 0, var(--transparency));
 }
 #logo{
     padding: 1rem;
+}
+.nav-button-container li:hover, .footer-item div a:hover{
+    text-decoration: underline;
+    text-underline-offset: .4rem;
+    text-decoration-thickness: .2rem;
+    text-decoration-color: var(--orange-color);
 }
 /*  ============ Nav Styling End ============  */
 
 
 
 /*  ============ Student Styling Start ============  */
+
 .teach-container{
     background-color: var(--white-color);
 }
@@ -293,6 +312,7 @@ li{
 .tool-container{
     /* padding: 1rem auto; */
     background-color: var(--tool-bg-color);
+    border: 1px solid var(--tool-bg-color);
 }
 .tool-one{
     left: 0rem;
@@ -328,6 +348,7 @@ li{
     width: 90%;
     margin: 0rem auto 4rem auto;
 }
+
 .t-icon{
     padding: 0rem 1rem;
     height: 5rem;
@@ -343,6 +364,7 @@ li{
     margin: 2rem auto;
     height: 50vw;
  }
+
 /*  ============ Tool Styling End ============  */
 
 
@@ -423,7 +445,6 @@ li{
 .join-container img{
     width: 30%;
     z-index: 0;
-    /* width: 30vw; */
 }
 #join-signup{
     font-size: 1.5rem;
@@ -431,6 +452,7 @@ li{
     border-radius: var(--s-radius);
     color: var(--white-color);
     background-color: var(--orange-color);
+    cursor:pointer;
 }
 
 /*  ============ Join Styling End ============  */

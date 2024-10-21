@@ -13,6 +13,11 @@
 /*  ============ Navbar Media query end ============  */
 
 /* ============ Teacher Student Media Query Start ============== */
+/* @media (min-width:1163px) {
+    main{
+        padding-top: 2rem;
+    }
+} */
 @media (min-width:1163px) and (max-width:1373px) {
     .student-right div img{
         width: 14rem;
@@ -117,7 +122,7 @@
         font-size: .8rem;
     }
     .student-btn{
-        padding:  .5rem 1rem;
+        padding: .6rem 1rem .3rem 1rem;
     }
     .student-left h1{
         font-size: 2.4rem;
@@ -143,6 +148,12 @@
     }
     .companies{
         margin: 1.5rem 0rem;
+    }
+
+}
+@media (min-width:864px) and (max-width:950px) {
+    .chat{
+        left: 30%;
     }
 
 }
@@ -411,6 +422,12 @@
 @media (max-width:500px) {
     .join-container{
         height: 85vw;
+    }
+}
+@media (max-width:487px) {
+    .join-container img{
+        height: 50%;
+        width: 20%;
     }
 }
 /* ============ Join Media Query End ============== */
