@@ -10,12 +10,6 @@ body{
 
 
 /*  ============ Common classes start ============  */
-/* .gb{
-    border: 2px solid green;
-}
-.rb{
-    border: 2px solid red;
-} */
 *{
     padding: 0;
     margin: 0;
@@ -97,18 +91,15 @@ a{
 nav{
     height: 6rem;
     background-color: var(--white-color);
+    color: var(--black-color);
 }
 li{
     list-style-type: none;
 }
 .nav-left{
-    /* width: 800px; */
     width: 55%;
     max-width: 800px;
 }
-/* .nav-right button{
-    margin: 0rem 1rem;
-} */
 .nav-button-container{
     width: 580px;   
 }
@@ -195,6 +186,7 @@ li{
 
 .teach-container{
     background-color: var(--white-color);
+    margin-bottom: 2rem;
 }
 .student-left{
     width: 50%;
